@@ -167,19 +167,19 @@ content:
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
     
     
-      - layout: left
-        title: 경동대학교
-        caption: 2009 - 2016
-        sub_title: 외식사업경영학과
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: left
-        title: 일산동고등학교
-        caption: 2006 - 2009
-        sub_title: 문과
-        quote: >
-        description: | # this will include new lines to allow paragraphs
+#      - layout: left
+#        title: 경동대학교
+#        caption: 2009 - 2016
+#        sub_title: 외식사업경영학과
+#        quote: >
+#        description: | # this will include new lines to allow paragraphs
+#
+#      - layout: left
+#        title: 일산동고등학교
+#        caption: 2006 - 2009
+#        sub_title: 문과
+#        quote: >
+#        description: | # this will include new lines to allow paragraphs
           
 #  - title: A Little More About Me
 #    layout: text

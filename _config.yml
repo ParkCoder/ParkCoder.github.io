@@ -112,6 +112,7 @@ content:
           "환경부의 화학안전정책포럼을 등록 및 관리하는 시스템 개발 및 유지보수"
         description: | # this will include new lines to allow paragraphs
          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>     
+         - 역할 :관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
       
       - layout: left
         title: 영화제작 회계 시스템
@@ -130,7 +131,7 @@ content:
          "영화 제작 현장에서의 출퇴근 등록 및 영수증 증빙 시스템 개발"
         description: | # this will include new lines to allow paragraphs
           - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>MySQL</mark>   
-#          - 영화 제작 현장에서 출퇴근 등록과 영수증을 증빙하고 확인 후 정산하는 시스템 개발
+          - 역할 : 웹 버전의 관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
            
       - layout: left
         title: 화학물질 관리시설 검사시스템
@@ -162,10 +163,33 @@ content:
         quote: >
           "JAVA, SPRING F/W, ORACLE, MYSQL 중심의 자바 개발자 교육"
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-    
+          - 교육과정 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>SQL</mark> <mark>Android Studio</mark> 를 이용한 웹/앱 개발
+          
+          - 진행프로젝트
+          
+          - 플라이스캐너 : 항공권 검색 예약 사이트 (2020.09.21-2020.10.14 / 4인)
+          
+             사용기술 : <mark>Java</mark> <mark>JSP</mark> <mark>Javascript/jQuery</mark> <mark>MySQL</mark>
+             
+             역할 : 항공권 예약, 결제 <mark>아임포트API 연동</mark>, 내역조회 구현
+             
+          - 이너뷰 : 건강식품 리뷰 / 구매 플랫폼 (2020.10.19-2020.11.19 / 5인)
+          
+             사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>MySQL</mark>
+             
+             역할 : 설계 / UI / 카테고리별 상위 제품 노출, 상품 추천 알고리즘, 최근 본 상품, 검색 기능 구현
+             
+          - keep Memo : 메모장 어플 (2020.11.30-2020.12.11 / 개인)
+          
+             사용기술 : <mark>Java</mark> <mark>Android Studio</mark> <mark>SQLite</mark>
+             
+             역할 : 설계 / UI / 메모 CRUD / 어플리케이션 Password 설정
+             
+          - 리버풀 : 축구팬 페이지 (2020.12.14-2020.12.18 / 개인)
+          
+             사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>Oracle</mark>
+             
+             역할 : 설계 / UI /CRUD 구현을 위한 게시판 및 회원가입 / 오픈소스를 이용해 보기 위한 경기 일정 <mark>Fullcalendar</mark>
     
 #      - layout: left
 #        title: 경동대학교

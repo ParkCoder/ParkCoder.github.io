@@ -1,0 +1,232 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/km-icon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 박경민
+title: Web Developer
+email: kyung_za@naver.com
+phone: 010-9021-3736
+#website: www.github.com/sproogen/resume-theme
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  ParkCoder
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+content:
+  # 경력
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 아이씨티나인
+        # link_text: boringcompany.com
+        sub_title: Web Developer
+        caption: 2021.05 - 현재
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs
+             its networks properly administered and The Boring Com
+             pay is no exception. Digging holes is hard and I play my part making s
+             ure the whole company stays connected. I lead a team of 5 people and enjoy drivin
+             g the company to try new technologies.
+      
+      - layout: left
+        title: 이전의 경력
+        # link_text: boringcompany.com
+#        sub_title: Web Developer
+#        caption: 2021.05 - 현재
+        quote: >
+          "웹 개발자로 전향하기 전의 경력"
+        description: | # this will include new lines to allow paragraphs
+          <mark>CJ올리브영</mark> 2017.07-2020.04 / 사원 / 영업팀  
+          <mark>프리가(레스토랑)</mark> 2016.02-2017.03 / 홀매니저
+  
+  # 프로젝트
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+#      - layout: left
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+      
+      - layout: left
+        title: 화학안전정책포럼
+        link: not yet
+        caption: 2022.04 - 현재
+        # link_text: Project Website
+        quote: >
+          "환경부의 화학안전정책포럼을 등록 및 관리하는 시스템 개발 및 유지보수"
+        description: | # this will include new lines to allow paragraphs
+         - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>     
+         - 역할 :관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
+      
+      - layout: left
+        title: 영화제작 회계 시스템
+        link: https://5friday.kr
+#        link: https://5friday.kr/fridayApp
+        caption: 2021.09 - 2021.12
+        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+         "영화 제작 현장에서의 출퇴근 등록 및 영수증 증빙 시스템 개발"
+        description: | # this will include new lines to allow paragraphs
+          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>MySQL</mark>   
+          - 역할 : 웹 버전의 관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
+           
+      - layout: left
+        title: 화학물질 관리시설 검사시스템
+        link: https://safechem.or.kr
+        caption: 2021.05 - 현재
+        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          "한국환경공단의 화학물질 관리시설 시스템 유지 보수 및 개발"
+        description: | # this will include new lines to allow paragraphs
+         - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>
+#         - 화학물질 관리시설 시스템의 관리자, 사용자 유지 보수 및 추가 개발 진행
+
+  # 학력 + 교육
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      
+      - layout: left
+        title: 자바기반 웹 개발
+        caption: 2020.07 - 2021.01
+        sub_title: 더조은컴퓨터학원
+        quote: >
+          "JAVA, SPRING F/W, ORACLE, MYSQL 중심의 자바 개발자 교육"
+        description: | # this will include new lines to allow paragraphs
+          - 교육과정 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>SQL</mark> <mark>Android Studio</mark> 를 이용한 웹/앱 개발
+          
+          - 진행프로젝트
+          
+          - 플라이스캐너 : 항공권 검색 예약 사이트 (2020.09.21-2020.10.14 / 4인)
+          
+             사용기술 : <mark>Java</mark> <mark>JSP</mark> <mark>Javascript/jQuery</mark> <mark>MySQL</mark>
+             
+             역할 : 항공권 예약, 결제 <mark>아임포트API 연동</mark>, 내역조회 구현
+             
+          - 이너뷰 : 건강식품 리뷰 / 구매 플랫폼 (2020.10.19-2020.11.19 / 5인)
+          
+             사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>MySQL</mark>
+             
+             역할 : 설계 / UI / 카테고리별 상위 제품 노출, 상품 추천 알고리즘, 최근 본 상품, 검색 기능 구현
+             
+          - keep Memo : 메모장 어플 (2020.11.30-2020.12.11 / 개인)
+          
+             사용기술 : <mark>Java</mark> <mark>Android Studio</mark> <mark>SQLite</mark>
+             
+             역할 : 설계 / UI / 메모 CRUD / 어플리케이션 Password 설정
+             
+          - 리버풀 : 축구팬 페이지 (2020.12.14-2020.12.18 / 개인)
+          
+             사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>Oracle</mark>
+             
+             역할 : 설계 / UI /CRUD 구현을 위한 게시판 및 회원가입 / 오픈소스를 이용해 보기 위한 경기 일정 <mark>Fullcalendar</mark>
+    
+#      - layout: left
+#        title: 경동대학교
+#        caption: 2009 - 2016
+#        sub_title: 외식사업경영학과
+#        quote: >
+#        description: | # this will include new lines to allow paragraphs
+#
+#      - layout: left
+#        title: 일산동고등학교
+#        caption: 2006 - 2009
+#        sub_title: 문과
+#        quote: >
+#        description: | # this will include new lines to allow paragraphs
+          
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image  
+#      ![Trees](images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

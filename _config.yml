@@ -17,7 +17,7 @@ darkmode: false
 
 # Social links
 #twitter_username: facespics
-github_username:  ParkCoder
+#github_username:  ParkCoder
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -34,7 +34,7 @@ github_username:  ParkCoder
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://www.naver.com
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -55,13 +55,13 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   # 경력
-  - title: Work Experience # Title for the section
+  - title: 경력 사항 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 아이씨티나인
         # link_text: boringcompany.com
-        sub_title: Web Developer
+        sub_title: 개발팀 / 대리
         caption: 2021.05 - 현재
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -81,10 +81,10 @@ content:
           "웹 개발자로 전향하기 전의 경력"
         description: | # this will include new lines to allow paragraphs
           <mark>CJ올리브영</mark> 2017.07-2020.04 / 사원 / 영업팀  
-          <mark>프리가(레스토랑)</mark> 2016.02-2017.03 / 홀매니저
+          <mark>프리가(레스토랑)</mark> 2016.02-2017.03 / 홀 매니저
   
   # 프로젝트
-  - title: Projects # Title for the section
+  - title: 참여 프로젝트 # Title for the section
     layout: list # Type of content section (list/text)
     content:
 #      - layout: left
@@ -103,22 +103,66 @@ content:
 #        description: | # this will include new lines to allow paragraphs
 #          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
       
+      
+      
+      - layout: left
+        title: 화학안전 사업장 조성 지원사업 시스템
+        sub_title: 한국환경공단
+        caption: 2022.10 - 현재
+        link: https://safechem.or.kr/spt
+        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          "화학물질로부터 안전한 사업장 조성을 위해 보조금을 신청하여 평가하여 지원해주는 시스템의 개발 및 유지보수"
+        description: | # this will include new lines to allow paragraphs
+         - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>
+         - 역할 : 개발 및 유지보수 (전체 기능 및 페이지), 설계 (초기 설계부터 유지보수 단계의 설계까지 전담)
+      
+      
+      
+      - layout: left
+        title: 화학물질 관리시설 검사시스템
+        sub_title: 한국환경공단
+        caption: 2021.05 - 현재
+        link: https://safechem.or.kr
+        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          "화학물질을 사용하는 시설에 대한 검사 시스템 유지 보수 및 추가 개발"
+        description: | # this will include new lines to allow paragraphs
+         - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>
+         - 역할 : 유지보수 (관리자 · 사용자), 추가 개발 (화면 · DB 설계)
+
+
       - layout: left
         title: 화학안전정책포럼
-        link: not yet
-        caption: 2022.04 - 현재
+        sub_title: 환경부
+        caption: 2022.04 - 2022.08
+        link: https://www.chemnavi.or.kr/forum
         # link_text: Project Website
         quote: >
-          "환경부의 화학안전정책포럼을 등록 및 관리하는 시스템 개발 및 유지보수"
+          "화학안전정책에 관한 포럼 등록 및 관리, 이해당사자들의 의견을 받는 시스템 개발 및 유지보수"
         description: | # this will include new lines to allow paragraphs
          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>     
-         - 역할 :관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
+         - 역할 : 페이지 전체 구현 (관리자 · 사용자), 화면 · DB 설계 (초기 설계 이후 변경되는 설계 단계)
       
       - layout: left
         title: 영화제작 회계 시스템
+        caption: 2021.09 - 2021.12
         link: https://5friday.kr
 #        link: https://5friday.kr/fridayApp
-        caption: 2021.09 - 2021.12
         # link_text: Project Website
 #        additional_links:
 #          - title:  sproogen/modern-resume-theme
@@ -128,31 +172,13 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-         "영화 제작 현장에서의 출퇴근 등록 및 영수증 증빙 시스템 개발"
+         "영화 제작 현장에서의 출퇴근 등록 및 관리, 현장에서 사용한 영수증 증빙 및 처리하는 시스템 개발"
         description: | # this will include new lines to allow paragraphs
-          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>MySQL</mark>   
-          - 역할 : 웹 버전의 관리자 및 사용자 페이지 전체 구현, 초기 설계 이후 변경되는 설계 단계부터 설계
+          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>MySQL</mark>  
+          - 역할 : 페이지 전체 구현 (관리자 · 사용자), 화면 · DB 설계 (초기 설계 이후 변경되는 설계 단계)
            
-      - layout: left
-        title: 화학물질 관리시설 검사시스템
-        link: https://safechem.or.kr
-        caption: 2021.05 - 현재
-        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          "한국환경공단의 화학물질 관리시설 시스템 유지 보수 및 개발"
-        description: | # this will include new lines to allow paragraphs
-         - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>
-#         - 화학물질 관리시설 시스템의 관리자, 사용자 유지 보수 및 추가 개발 진행
-
-  # 학력 + 교육
-  - title: Education # Title for the section
+  # 교육과정
+  - title: 관련 교육 및 자격증 # Title for the section
     layout: list # Type of content section (list/text)
     content:
       
@@ -190,13 +216,26 @@ content:
              사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>Javascript/jQuery</mark> <mark>Oracle</mark>
              
              역할 : 설계 / UI /CRUD 구현을 위한 게시판 및 회원가입 / 오픈소스를 이용해 보기 위한 경기 일정 <mark>Fullcalendar</mark>
+             
+      - layout: left
+        title: 정보처리기사
+        sub_title: 한국산업인력공단
+        description: | # this will include new lines to allow paragraphs
+          - 취득일 : 2023년 06월 09일
     
-#      - layout: left
-#        title: 경동대학교
-#        caption: 2009 - 2016
-#        sub_title: 외식사업경영학과
+   # 학력
+  - title: 학력 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+       
+      - layout: left
+        title: 경동대학교
+        sub_title: 외식사업경영학과
+        caption: 2009 - 2016
 #        quote: >
-#        description: | # this will include new lines to allow paragraphs
+#          "최종 학력"
+        description: | # this will include new lines to allow paragraphs
+          - 외식사업경영학과 / 2009년 3월 입학 - 2016년 2월 졸업
 #
 #      - layout: left
 #        title: 일산동고등학교

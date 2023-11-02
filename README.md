@@ -1,4 +1,4 @@
-# 박경민 (Park, Kyungmin)
+# 박경민 (Kyungmin Park)
 Web Developer
 
 https://parkcoder.github.io/

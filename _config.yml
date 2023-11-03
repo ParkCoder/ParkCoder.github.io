@@ -54,9 +54,9 @@ darkmode: false
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  안녕하세요. 웹 개발자 박경민입니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  스킬: <mark>Java</mark> <mark>Spring</mark> <mark>JavaScript</mark> <mark>RDBMS(Oracle, MySQL)</mark> <mark>SQL</mark>  
 
 content:
   # 경력
@@ -71,13 +71,28 @@ content:
 #        quote: >
 #          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            입사 초기 유지보수 업무를 맡았으며, 추후 추가 개발에 대한 부분 설계도 맡게 되었습니다.
             
-            2022년 들어서며 시작한 신규 프로젝트에 대한 초기 설계를 바탕으로 수정된 설계를 하는 경험을 하게 되었고, 
+            한국환경공단 운영 시스템 개발 및 유지보수, 전자정부프레임워크 기반의 개발        
             
-            2022년 10월 시작된 프로젝트에서는 전체적인 설계와 개발을 전담하여 진행하게 되었고 
-            
-            이에 대한 성과로 2023년 대리 직급을 맡게 되었으며 현재까지 근무하고 있습니다.
+            담당 업무 : 화면·DB 설계 / 풀스택 개발 및 유지보수 / 고객사 커뮤니케이션
+                    
+#            <mark>2023</mark>   
+#             
+#            화학안전 사업장 조성 지원 사업 시스템, 화학물질 관리시설 검사 시스템 유지보수 및 추가 사항 개발
+#            
+#            직급 : 사원 → 대리
+#
+#            <mark>2022</mark> 
+#            
+#            화학안전 사업장 조성 지원 사업 시스템 화면, DB 설계 및 개발 (~현재)
+#
+#            화학안전정책 포럼 개발
+#
+#            <mark>2021</mark> 
+#            
+#            화학물질 관리시설 검사 시스템 유지보수 및 추가 사항 개발 (~현재)
+#            
+#            영화제작 회계 시스템 개발
             
       - layout: left
         title: 이전의 경력
@@ -130,7 +145,7 @@ content:
         description: | # this will include new lines to allow paragraphs
          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>
          - 역할 : 개발 및 유지보수 (전체 기능 및 페이지), 설계 (초기 설계부터 유지보수 단계의 설계까지 전담)
-      
+#         - 참여 인원 : 2명
       
       
       - layout: left
@@ -164,7 +179,8 @@ content:
         description: | # this will include new lines to allow paragraphs
          - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>Oracle</mark>     
          - 역할 : 페이지 전체 구현 (관리자 · 사용자), 화면 · DB 설계 (초기 설계 이후 변경되는 설계 단계)
-      
+#         - 참여 인원 : 4명 (설계 2명, 개발 2명)
+          
       - layout: left
         title: 영화제작 회계 시스템
         caption: 2021.09 - 2021.12
@@ -183,6 +199,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 사용기술 : <mark>Java</mark> <mark>Spring</mark> <mark>jQuery</mark> <mark>MySQL</mark>  
           - 역할 : 페이지 전체 구현 (관리자 · 사용자), 화면 · DB 설계 (초기 설계 이후 변경되는 설계 단계)
+#          - 참여 인원 : 3명 (설계 2명, 개발 1명)
            
   # 교육과정
   - title: 관련 교육 및 자격증 # Title for the section
